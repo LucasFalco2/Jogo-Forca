@@ -242,6 +242,9 @@ def main():
         palavra_jogador_1 = input("Jogador 1, por favor, escolha a palavra para o jogador 2 adivinhar: ")
         dica_jogador_1 = input("Jogador 1, por favor, insira uma dica para a palavra escolhida: ")
         jogo_da_forca(modo, palavra_jogador_1, dica_jogador_1)
+palavra_jogador_2 = input("Jogador 2, por favor, escolha a palavra para o jogador 1 adivinhar: ")
+        dica_jogador_2 = input("Jogador 2, por favor, insira uma dica para a palavra escolhida: ")
+        jogo_da_forca(modo, palavra_jogador_2, dica_jogador_2)
     else:
         print("\nModo de um jogador selecionado.")
         tema = input("Escolha um tema para as palavras (animais, países, frutas) ou pressione Enter para palavras aleatórias: ")
