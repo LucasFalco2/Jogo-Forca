@@ -12,8 +12,8 @@ VERMELHO = (255, 0, 0)
 pygame.init()
 
 # Configurações da janela
-largura_tela = 800
-altura_tela = 600
+largura_tela = 1220
+altura_tela = 1080
 tela = pygame.display.set_mode((largura_tela, altura_tela))
 pygame.display.set_caption("Jogo da Forca")
 
